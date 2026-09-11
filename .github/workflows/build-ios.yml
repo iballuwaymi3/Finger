@@ -20,8 +20,9 @@ jobs:
       - name: Install JS dependencies
         run: npm install
 
-    - name: Add iOS platform
-  run: npx cap add ios
+  m   - name: Add iOS platform	
+        run: npx cap add ios
+        
       - name: Sync Capacitor
         run: npx cap sync ios
 
