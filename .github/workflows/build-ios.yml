@@ -48,8 +48,8 @@ jobs:
           cp -r App.app Payload/
           zip -r MuhaidibConnect-unsigned.ipa Payload
 
-      - name: Upload .ipa artifact
+      - name: Upload ipa artifact
         uses: actions/upload-artifact@v4
         with:
-          name: MuhaidibConnect-unsigned-ipa
-          path: ios/App/build/Build/Products/Release-iphoneos/MuhaidibConnect-unsi
+          name: ios-app-ipa
+          path: ios/App/build/Build/Products/Release-iphoneo
