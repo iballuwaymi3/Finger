@@ -1,0 +1,16 @@
+{
+  "name": "muhaidib-connect-ios-wrapper",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Capacitor wrapper that loads muhaidib-connect-flow.base44.app inside a native iOS shell",
+  "scripts": {
+    "sync": "cap sync ios"
+  },
+  "dependencies": {
+    "@capacitor/core": "^6.0.0",
+    "@capacitor/ios": "^6.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.0.0"
+  }
+}
